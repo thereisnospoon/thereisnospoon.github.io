@@ -2,7 +2,7 @@ body {
     position: relative;
     top: 0em;
     font-size: 0.7em;
-    font-family: "Verdana";
+    font-family: Verdana;
 }
 
 #name {
@@ -39,6 +39,7 @@ a:link {
     float: left;
     top: 1.6em;
     padding-bottom: 0.6em;
+    padding-top: 0.6em;
 }
 
 .title {
@@ -52,28 +53,8 @@ a:link {
     font-weight: bold;
 }
 
-#exp .title span {
-    background: #5CA0EA;
-}
-
-#education .title span {
-    background: #CE8147;
-}
-
-#prof_skills .title span {
-    background: #FF715B;
-}
-
-#languages .title span {
-    background: #4E937A;
-}
-
-#interests .title span {
-    background: #690375;
-}
-
-#interests .info, #languages .info {
-    left: 2em;
+.title span {
+    background: #256EBD;
 }
 
 td {
@@ -92,7 +73,6 @@ td {
 }
 
 #exp {
-    top: 1em;
     padding-bottom: 0;
 }
 
@@ -112,18 +92,16 @@ td {
     vertical-align: text-top;
  }
 
+#prof_skills td {
+    vertical-align: text-top;
+}
+
 #education {
-    margin-top: 5em;
     border-collapse: separate;
 }
 
 #education td {
-    padding-bottom: 1em;
     padding-top: 1em;
-}
-
-#summary .title span {
-    background-color: darkorchid;
 }
 
 #summary ul {
