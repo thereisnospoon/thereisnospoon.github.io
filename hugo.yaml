@@ -1,0 +1,59 @@
+baseURL: 'https://thereisnospoon.github.io/'
+languageCode: 'en-us'
+title: 'thereisnospoon'
+
+theme: 'archie'
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/about/"
+      weight: 2
+    - name: "All posts"
+      url: "/posts/"
+      weight: 3
+
+outputs:
+  home:
+    - HTML
+
+enableEmoji: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+
+  mode: toggle
+
+  social:
+    - name: "GitHub"
+      icon: "github"
+      url: "https://github.com/thereisnospoon"
+    - name: "LinkedIn"
+      icon: "linkedin"
+      url: "https://www.linkedin.com/in/dimadermanskyi/"
+
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: false
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
