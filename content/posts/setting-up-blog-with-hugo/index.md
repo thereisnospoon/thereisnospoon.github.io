@@ -2,7 +2,7 @@
 date = '2025-02-12'
 draft = false
 title = 'Setting up personal blog with Hugo and Github Pages'
-tags = ['hugo', 'Github Pages']
+tags = ['hugo', 'github']
 +++
 
 Recently I've been thinking about setting up my own blog. If you are reading this it means

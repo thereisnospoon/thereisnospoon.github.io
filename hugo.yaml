@@ -44,10 +44,6 @@ params:
   ShowPageNums: true
   ShowToc: false
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
-
   assets:
     disableHLJS: true
 
@@ -57,3 +53,13 @@ markup:
       unsafe: true
   highlight:
     noClasses: false
+
+
+services:
+  googleAnalytics:
+    id: G-CNF5QWRVRS
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: false
