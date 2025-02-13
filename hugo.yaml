@@ -47,12 +47,15 @@ params:
   assets:
     disableHLJS: true
 
+# https://xyproto.github.io/splash/docs/
+pygmentsstyle: "github"
+
 markup:
   goldmark:
     renderer:
       unsafe: true
   highlight:
-    noClasses: false
+    noClasses: true
 
 
 services:
