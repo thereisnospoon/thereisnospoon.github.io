@@ -1,0 +1,115 @@
+body {
+    position: relative;
+    top: 0em;
+    font-size: 0.7em;
+    font-family: Verdana;
+}
+
+#name {
+    position: relative;
+    float: left;
+    font-size: 2.5em;
+}
+
+#role {
+    font-size: 0.5em;
+}
+
+#contacts {
+    position: relative;
+    float: right;
+    top: 1em;
+}
+
+#contacts img {
+    position: relative;
+    top: 5px;
+    width: 17px;
+    height: 17px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.info_div {
+    clear: both;
+    position: relative;
+    float: left;
+    top: 1.6em;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+}
+
+.title {
+    padding-bottom: 0.3em;
+}
+
+.title span {
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.title span {
+    background: #256EBD;
+}
+
+td {
+    min-width: 15em
+}
+
+.date {
+    position: relative;
+    left: 2em;
+    font-weight: 700;
+}
+
+.info {
+    position: relative;
+    left: 4em;
+}
+
+#masters {
+    position: relative;
+    overflow-wrap: anywhere;
+    margin-right: 3em;
+}
+
+#exp {
+    padding-bottom: 0;
+}
+
+.exp td:nth-child(1) {
+    font-weight: bold;
+    width: 15em;
+}
+
+.exp {
+    border-bottom: solid;
+    width: 98%;
+    border-width: 1px;
+    margin-left: 2em;
+}
+
+.exp td {
+    vertical-align: text-top;
+}
+
+#prof_skills td {
+    vertical-align: text-top;
+}
+
+#education {
+    border-collapse: separate;
+}
+
+#education td {
+    padding-top: 1em;
+}
+
+#summary ul {
+    margin-top: 0;
+}
